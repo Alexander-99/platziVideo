@@ -250,6 +250,50 @@
         }
     }
 
+
+    /*Página not fun*/
+    .error {
+        height: 600px;
+        color: white;
+        display: flex;
+        align-items: center;
+        xjustify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .error p {
+        font-size: 30px;
+    }
+
+    .error h1 {
+        font-size: 80px;
+    }
+
+    .error__irInicio a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .error__irInicio a:hover {
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    @keyframes pulse {
+        0% {transform: scale(1);}
+        50% {transform: scale(1.1);}
+        100% {transform: scale(1);}
+      }
+      .pulse {
+        animation-name: pulse;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+      }
+
+     
 /*scrooll
 .carousel::-webkit-scrollbar {
     width: 7px;
@@ -260,6 +304,8 @@
     background: red;
     border-radius: 5px;
 }*/
+
+
 
 
  
